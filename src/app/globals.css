@@ -50,6 +50,10 @@ main {
   font-size: 16px;
 }
 
+.primary-btn:active {
+  transform: scale(1.03);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

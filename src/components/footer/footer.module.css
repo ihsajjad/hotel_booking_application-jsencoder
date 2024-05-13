@@ -1,14 +1,28 @@
 .footer {
-  height: 40px;
+  min-height: 40px;
   display: flex;
+  gap: 5px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: var(--primary-color);
-  color: var(--primary-text);
+  color: rgb(213, 209, 209);
+  padding: 5px 10px;
+}
+
+.footer ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.footer ul li {
+  cursor: pointer;
+  font-size: 14px;
 }
 
 @media (max-width: 600px) {
   .footer {
-    font-size: 14px;
+    /* font-size: 14px; */
+    flex-direction: column-reverse;
   }
 }
