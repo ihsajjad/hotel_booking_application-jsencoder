@@ -1,0 +1,14 @@
+.footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 14px;
+  }
+}

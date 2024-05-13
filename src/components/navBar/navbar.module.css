@@ -1,0 +1,30 @@
+.navContainer {
+  background-color: var(--primary-color);
+}
+
+.navContainer nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+
+  .logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-text);
+  }
+
+  .logo span {
+    color: rgb(10, 187, 10);
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+    .menuItem a {
+      color: var(--primary-text) !important;
+    }
+  }
+}
