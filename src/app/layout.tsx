@@ -2,6 +2,7 @@ import Footer from "@/components/footer/Footer";
 import NavBar from "@/components/navBar/NavBar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import "sweetalert2/src/sweetalert2.scss";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
