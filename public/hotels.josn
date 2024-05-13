@@ -1,0 +1,144 @@
+[
+  {
+    "_id": "123456",
+    "name": "Luxury Hotel",
+    "description": "Experience luxury like never before.",
+    "city": "New York",
+    "country": "USA",
+    "type": "Luxury",
+    "pricePerNight": 500,
+    "starRating": 5,
+    "adultCount": 2,
+    "childCount": 1,
+    "facilities": ["Swimming Pool", "Gym", "Spa", "Restaurant"],
+    "images": [
+      {"label": "Exterior", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"},
+      {"label": "Room", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-13T00:00:00.000Z"
+  },
+  {
+    "_id": "789012",
+    "name": "Budget Inn",
+    "description": "Affordable accommodation for travelers.",
+    "city": "London",
+    "country": "UK",
+    "type": "Budget",
+    "pricePerNight": 100,
+    "adultCount": 1,
+    "childCount": 0,
+    "facilities": ["Wi-Fi", "Parking"],
+    "images": [
+      {"label": "Exterior", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-12T00:00:00.000Z"
+  }, 
+  {
+    "_id": "456789",
+    "name": "Seaside Resort",
+    "description": "Relax by the beach and enjoy stunning ocean views.",
+    "city": "Miami",
+    "country": "USA",
+    "type": "Resort",
+    "pricePerNight": 300,
+    "starRating": 4,
+    "adultCount": 2,
+    "childCount": 2,
+    "facilities": ["Beach Access", "Pool", "Tennis Courts", "Bar"],
+    "images": [
+      {"label": "Beach View", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"},
+      {"label": "Pool Area", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-12T00:00:00.000Z"
+  },
+  {
+    "_id": "234567",
+    "name": "Mountain Lodge",
+    "description": "Experience nature at its finest in the heart of the mountains.",
+    "city": "Aspen",
+    "country": "USA",
+    "type": "Lodge",
+    "pricePerNight": 250,
+    "starRating": 3,
+    "adultCount": 2,
+    "childCount": 0,
+    "facilities": ["Hiking Trails", "Skiing", "Restaurant", "Fireplace"],
+    "images": [
+      {"label": "Mountain View", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"},
+      {"label": "Room", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-11T00:00:00.000Z"
+  },
+  {
+    "_id": "345678",
+    "name": "Urban Loft",
+    "description": "Modern loft-style accommodation in the heart of the city.",
+    "city": "Tokyo",
+    "country": "Japan",
+    "type": "Urban",
+    "pricePerNight": 200,
+    "starRating": 4,
+    "adultCount": 2,
+    "childCount": 1,
+    "facilities": ["City View", "Fitness Center", "Concierge", "Wi-Fi"],
+    "images": [
+      {"label": "City View", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"},
+      {"label": "Living Room", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "901234",
+    "name": "Historic Mansion Hotel",
+    "description": "Stay in a beautifully restored mansion from the 19th century.",
+    "city": "Paris",
+    "country": "France",
+    "type": "Historic",
+    "pricePerNight": 400,
+    "starRating": 5,
+    "adultCount": 2,
+    "childCount": 0,
+    "facilities": ["Garden", "Library", "Fine Dining", "Luxury Spa"],
+    "images": [
+      {"label": "Exterior", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"},
+      {"label": "Suite", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-12T00:00:00.000Z"
+  },
+  {
+    "_id": "567890",
+    "name": "Safari Lodge",
+    "description": "Embark on a thrilling safari adventure in the heart of Africa.",
+    "city": "Maasai Mara",
+    "country": "Kenya",
+    "type": "Lodge",
+    "pricePerNight": 350,
+    "starRating": 4,
+    "adultCount": 2,
+    "childCount": 2,
+    "facilities": ["Game Drives", "Swimming Pool", "Bush Walks", "Bush Meals"],
+    "images": [
+      {"label": "Safari Tent", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"},
+      {"label": "Wildlife", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-11T00:00:00.000Z"
+  },
+  {
+    "_id": "678901",
+    "name": "Underwater Hotel",
+    "description": "Sleep beneath the waves and experience marine life up close.",
+    "city": "Bali",
+    "country": "Indonesia",
+    "type": "Unique",
+    "pricePerNight": 600,
+    "starRating": 5,
+    "adultCount": 2,
+    "childCount": 0,
+    "facilities": ["Underwater Restaurant", "Submarine Tours", "Private Butler"],
+    "images": [
+      {"label": "Underwater Bedroom", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"},
+      {"label": "Dining Area", "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"}
+    ],
+    "lastUpdated": "2024-05-10T00:00:00.000Z"
+  }
+]

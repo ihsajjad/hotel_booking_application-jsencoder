@@ -1,0 +1,15 @@
+.hotelsSectionContainer {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.filterContainer {
+  width: 300px;
+  border: 1px solid gray;
+}
+
+.hotel {
+  display: flex;
+  gap: 20px;
+}
