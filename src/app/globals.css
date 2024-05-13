@@ -31,6 +31,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+main {
+  min-height: calc(100vh - 90px);
+}
+
 .container {
   padding: 0 60px;
 }
@@ -42,6 +46,8 @@ body {
   font-weight: 700;
   text-decoration: none;
   border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
